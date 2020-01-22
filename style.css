@@ -2,6 +2,7 @@ body{
 color:white;
 font-family:'Work Sans', "sans-serif";
 font-size : 1.3em;
+align-content: center;
 }
 .container{
     position:relative;
@@ -45,11 +46,13 @@ p {
     font-style: italic;
     color: yellowgreen;
     text-align: center;
+    font-family: 'Heebo', sans-serif;
   }
   h3{
     font-style: oblique;
     color: teal;
     text-align: center;
+    font-family: 'Frank Ruhl Libre', serif;
   }
   table, th, td {
     border: 1px solid black;
@@ -63,9 +66,15 @@ p {
     background-color: #4CAF50;
   color: white;
   }
-  *{
+  *about{
     align:center;
   }
-  image{
+
+  
+  #table{
     text-align: center;
+    margin-left: 15%;
+  }
+  ul{
+    margin-left: 15%;
   }
